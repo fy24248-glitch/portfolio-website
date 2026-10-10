@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Your Name</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Hi, I'm Your Name</h1>
+  <p>Aspiring Software Developer | DSA Enthusiast | Web Developer</p>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>I'm a student/developer learning data structures, algorithms, and web development. This portfolio showcases a few of my basic projects.</p>
+</section>
+
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <ul class="skills-list">
+    <li>Python</li>
+    <li>JavaScript</li>
+    <li>HTML &amp; CSS</li>
+    <li>Data Structures &amp; Algorithms</li>
+    <li>Git &amp; GitHub</li>
+  </ul>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Sorting Algorithms</h3>
+      <p>Python implementations of bubble, selection, insertion, merge, and quick sort.</p>
+    </div>
+    <div class="project-card">
+      <h3>Linked List</h3>
+      <p>A singly linked list built from scratch with insert, delete, and reverse operations.</p>
+    </div>
+    <div class="project-card">
+      <h3>To-Do List App</h3>
+      <p>A simple browser-based to-do list with local storage persistence.</p>
+    </div>
+    <div class="project-card">
+      <h3>Calculator</h3>
+      <p>A basic calculator web app supporting the four core operations.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <form id="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p id="form-status"></p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Your Name. Built with HTML, CSS &amp; JS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
